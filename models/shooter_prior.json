@@ -1,0 +1,9 @@
+{
+  "alpha": 127.87932603376352,
+  "beta": 224.7312038700297,
+  "history_discount": 1.0,
+  "minimum_early_attempts": 30,
+  "prior_fit_season": "2023-24",
+  "discount_tuning_season": "2024-25",
+  "test_season": "2025-26"
+}

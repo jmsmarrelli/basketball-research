@@ -1,0 +1,36 @@
+{
+  "season": "2024-25",
+  "window_start": "2024-10-22",
+  "window_end": "2025-01-31",
+  "window_games": 709,
+  "window_shot_chart_fga": 126438,
+  "inconsistent_zone_labels": 6,
+  "source_video_rows": 483126,
+  "unique_possessions": 243782,
+  "source_possession_fga": 218800,
+  "shot_chart_fga": 219527,
+  "linked_shots": 170034,
+  "eligible_shots": 124786,
+  "eligible_shooting_possessions": 109662,
+  "ambiguous_link_rows_excluded": 0,
+  "coverage_of_shot_chart": 0.9869343077239437,
+  "mix_component": 0.06801305078489879,
+  "within_zone_component": -0.059163233825995316,
+  "ppa_gap": 0.008849816958903474,
+  "ppa_gap_ci": [
+    -0.010880277164585544,
+    0.02932517020281167
+  ],
+  "sensitivity": [
+    {
+      "phase": "First shot",
+      "size": 87210,
+      "mean": 1.0933837862630433
+    },
+    {
+      "phase": "Later shot",
+      "size": 11899,
+      "mean": 1.0968148583914614
+    }
+  ]
+}

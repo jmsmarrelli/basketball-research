@@ -1,0 +1,26 @@
+{
+  "development_games": 1230,
+  "test_games": 1230,
+  "test_early_attempts": 36663,
+  "test_late_attempts": 54257,
+  "excluded_test_heaves": 50,
+  "selected_C": 0.1,
+  "selected_offset_prior_attempts": 1000000000.0,
+  "raw_repeatability_r": -0.08283749946252561,
+  "residual_repeatability_r": -0.09736989095484049,
+  "context_vs_league_loss": {
+    "difference": -0.0017565163386088567,
+    "lower": -0.00220196754833071,
+    "upper": -0.0013503355707248973
+  },
+  "offset_vs_context_loss": {
+    "difference": 8.971846048556224e-11,
+    "lower": -2.19580898406627e-10,
+    "upper": 4.1000005572599897e-10
+  },
+  "raw_early_vs_context_loss": {
+    "difference": 0.0021863202665234776,
+    "lower": 0.001727666036624335,
+    "upper": 0.0026862804687519727
+  }
+}

@@ -1,0 +1,25 @@
+team,PLAYER_NAME,date,GAME_ID,GAME_EVENT_ID,PERIOD,MINUTES_REMAINING,SECONDS_REMAINING,zone,made,game_url
+PHX,Royce O'Neale,2024-11-12,22400006,556,4,4,45,Above-break three,1,https://www.nba.com/game/0022400006/play-by-play
+PHX,Royce O'Neale,2024-11-12,22400006,549,4,5,20,Restricted area,0,https://www.nba.com/game/0022400006/play-by-play
+PHX,Grayson Allen,2024-11-12,22400006,531,4,6,51,Above-break three,0,https://www.nba.com/game/0022400006/play-by-play
+PHX,Devin Booker,2024-11-12,22400006,515,4,7,41,Above-break three,1,https://www.nba.com/game/0022400006/play-by-play
+PHX,Oso Ighodaro,2024-11-12,22400006,483,4,9,51,Restricted area,1,https://www.nba.com/game/0022400006/play-by-play
+PHX,Royce O'Neale,2024-11-12,22400006,402,3,4,32,Above-break three,0,https://www.nba.com/game/0022400006/play-by-play
+PHX,Mason Plumlee,2024-11-12,22400006,355,3,7,40,Restricted area,1,https://www.nba.com/game/0022400006/play-by-play
+PHX,Tyus Jones,2024-11-12,22400006,328,3,10,16,Above-break three,0,https://www.nba.com/game/0022400006/play-by-play
+SAS,Devin Vassell,2024-11-15,22400015,648,4,0,0,Above-break three,0,https://www.nba.com/game/0022400015/play-by-play
+SAS,Victor Wembanyama,2024-11-15,22400015,530,4,8,3,Restricted area,0,https://www.nba.com/game/0022400015/play-by-play
+SAS,Blake Wesley,2024-11-15,22400015,431,3,3,40,Above-break three,0,https://www.nba.com/game/0022400015/play-by-play
+SAS,Victor Wembanyama,2024-11-15,22400015,240,2,5,49,Paint outside restricted area,1,https://www.nba.com/game/0022400015/play-by-play
+SAS,Victor Wembanyama,2024-11-15,22400015,215,2,7,57,Above-break three,1,https://www.nba.com/game/0022400015/play-by-play
+SAS,Stephon Castle,2024-11-15,22400015,86,1,5,10,Paint outside restricted area,0,https://www.nba.com/game/0022400015/play-by-play
+SAS,Keldon Johnson,2024-11-15,22400015,89,1,5,5,Above-break three,0,https://www.nba.com/game/0022400015/play-by-play
+NOP,Javonte Green,2024-11-15,22400017,606,4,0,1,Corner three,0,https://www.nba.com/game/0022400017/play-by-play
+NOP,Jaylen Nowell,2024-11-15,22400017,507,4,9,3,Paint outside restricted area,0,https://www.nba.com/game/0022400017/play-by-play
+NOP,Yves Missi,2024-11-15,22400017,455,3,0,31,Restricted area,0,https://www.nba.com/game/0022400017/play-by-play
+NOP,Brandon Ingram,2024-11-15,22400017,450,3,0,59,Midrange,1,https://www.nba.com/game/0022400017/play-by-play
+NOP,Yves Missi,2024-11-15,22400017,463,3,1,42,Paint outside restricted area,0,https://www.nba.com/game/0022400017/play-by-play
+NOP,Brandon Ingram,2024-11-15,22400017,422,3,2,24,Paint outside restricted area,0,https://www.nba.com/game/0022400017/play-by-play
+NOP,Brandon Ingram,2024-11-15,22400017,400,3,3,47,Above-break three,0,https://www.nba.com/game/0022400017/play-by-play
+NOP,Brandon Ingram,2024-11-15,22400017,395,3,4,20,Paint outside restricted area,1,https://www.nba.com/game/0022400017/play-by-play
+SAS,Harrison Barnes,2024-11-19,22400025,367,3,10,23,Restricted area,1,https://www.nba.com/game/0022400025/play-by-play

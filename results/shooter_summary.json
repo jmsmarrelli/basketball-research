@@ -1,0 +1,22 @@
+{
+  "prior_alpha": 127.87932603376352,
+  "prior_beta": 224.7312038700297,
+  "history_discount": 1.0,
+  "forecast_date": "2026-01-01",
+  "minimum_early_attempts": 30,
+  "forecast_players": 315,
+  "evaluated_players": 312,
+  "players_without_later_attempts": 3,
+  "evaluation_attempts": 46184,
+  "predictive_90_coverage": 0.9326923076923077,
+  "updated_vs_raw_loss": {
+    "difference": -0.004015252792827622,
+    "lower": -0.004807197967097755,
+    "upper": -0.0031831757769044434
+  },
+  "updated_vs_prior_loss": {
+    "difference": -0.00019041681226216435,
+    "lower": -0.00034195403770581297,
+    "upper": -3.952597495253054e-05
+  }
+}

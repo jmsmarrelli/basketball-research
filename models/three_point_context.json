@@ -1,0 +1,34 @@
+{
+  "features": [
+    "shooter_prior_logit",
+    "corner",
+    "distance",
+    "distance_squared"
+  ],
+  "mean": [
+    -0.5312436527084092,
+    0.25679133322445424,
+    25.09161086613316,
+    633.3533997495781
+  ],
+  "scale": [
+    0.11265681917505753,
+    0.4368633017378108,
+    1.9402226398345293,
+    101.32029211098627
+  ],
+  "coefficient": [
+    0.06912302401890856,
+    0.03974889061642739,
+    0.3707414770348575,
+    -0.43351226583053826
+  ],
+  "intercept": -0.566967639455199,
+  "C": 0.1,
+  "offset_prior_attempts": 1000000000.0,
+  "shooter_prior_attempts": 80,
+  "fit_season": "2024-25",
+  "test_season": "2025-26",
+  "excluded_distance_feet": 40,
+  "prediction_unit": "Observed three-point attempt; conditional analysis, not a pregame forecast"
+}

@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Basketball decisions, checked against later games</title>
+<meta name="description" content="Three research studies on shot creation, opponent scouting, and shooting forecasts. The analyses use 657,388 NBA shot-chart events across the 2023-24, 2024-25, and 2025-26 regular ">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+:root{
+  --surface:#fcfcfb; --raised:#f4f3ef; --ink:#0b0b0b; --ink-2:#43423f; --ink-3:#7d7b74;
+  --rule:#e3e2dc; --accent:#1c5cab; --mark:#eb6834;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --surface:#14140f; --raised:#1e1e18; --ink:#f2f1ec; --ink-2:#c9c7bf; --ink-3:#8d8b83;
+    --rule:#2e2e27; --accent:#7fb0f0; --mark:#f2895a;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--surface); color:var(--ink);
+  font:400 17px/1.62 "Source Sans 3","Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-feature-settings:"kern" 1;
+}
+.wrap{max-width:1020px;margin:0 auto;padding:0 22px}
+.bar{border-bottom:1px solid var(--rule);background:var(--surface)}
+.bar .wrap{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:baseline;padding-top:16px;padding-bottom:15px}
+.bar .slug{
+  font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:12.5px;letter-spacing:.02em;color:var(--ink-2)
+}
+.bar nav{margin-left:auto;display:flex;gap:18px}
+.bar a{
+  font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:12.5px;color:var(--ink-3);text-decoration:none;border-bottom:1px solid transparent
+}
+.bar a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+main{padding:0 0 96px}
+.col{max-width:700px}
+h1{
+  font-family:Archivo,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:700;font-size:clamp(30px,5.4vw,46px);line-height:1.08;
+  letter-spacing:-.022em;margin:54px 0 20px;max-width:640px
+}
+h2{
+  font-family:Archivo,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:600;font-size:22px;line-height:1.24;letter-spacing:-.012em;
+  margin:52px 0 14px;max-width:700px
+}
+h3{font-family:Archivo,"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:600;
+  font-size:18.5px;letter-spacing:-.008em;margin:40px 0 8px}
+p.meta{font-size:14.5px;color:var(--ink-3);margin:-2px 0 16px}
+p.meta a{border-bottom-color:transparent}
+p.meta a:hover{border-bottom-color:currentColor}
+p{margin:0 0 18px;max-width:700px}
+p strong{font-weight:600}
+a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(28,92,171,.32)}
+a:hover{border-bottom-color:currentColor}
+hr{border:0;border-top:1px solid var(--rule);margin:46px 0}
+ul,ol{margin:0 0 18px;padding-left:22px;max-width:700px}
+li{margin:0 0 8px}
+li>p{margin:0 0 8px}
+code{
+  font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:.86em;background:var(--raised);padding:.12em .34em;border-radius:3px
+}
+pre{
+  background:var(--raised);border:1px solid var(--rule);border-radius:5px;
+  padding:15px 17px;overflow-x:auto;margin:0 0 22px;max-width:820px
+}
+pre code{background:none;padding:0;font-size:13px;line-height:1.55}
+em{color:var(--ink-2)}
+.tw{overflow-x:auto;margin:0 0 26px;max-width:980px}
+table{border-collapse:collapse;font-size:14.5px;min-width:100%}
+th,td{padding:7px 15px 7px 0;text-align:left;border-bottom:1px solid var(--rule);white-space:nowrap}
+th{
+  font-family:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  font-size:11.5px;text-transform:uppercase;letter-spacing:.055em;
+  color:var(--ink-3);font-weight:500;border-bottom-color:var(--ink-3);white-space:normal
+}
+td.num{text-align:right;font-variant-numeric:tabular-nums;padding-right:22px}
+th.num{text-align:right;padding-right:22px}
+tbody tr:last-child td{border-bottom:0}
+figure{margin:30px 0 34px;max-width:980px}
+figure img{display:block;width:100%;height:auto;border:1px solid var(--rule);border-radius:4px}
+.foot{border-top:1px solid var(--rule);padding:22px 0 40px}
+.foot .wrap{
+  font-family:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  font-size:11.5px;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:8px 20px
+}
+@media (max-width:560px){
+  body{font-size:16px}
+  .wrap{padding:0 16px}
+  h1{margin-top:36px}
+  th,td{padding-right:14px}
+}
+</style>
+</head>
+<body>
+<header class="bar"><div class="wrap"><span class="slug">basketball-research</span><nav><a href="https://github.com/jmsmarrelli/basketball-research">repository</a><a href="https://jmsmarrelli.github.io/basketball-analytics/">all projects</a></nav></div></header>
+<main><div class="wrap">
+<h1>Basketball decisions, checked against later games</h1>
+<p>Three research studies on shot creation, opponent scouting, and shooting forecasts. The analyses use 657,388 NBA shot-chart events across the 2023-24, 2024-25, and 2025-26 regular seasons, plus 2024-25 possession data. Research completed September 2026.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Study</th>
+<th>Basketball question</th>
+<th>Main result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="reports/01_after_the_miss.html">After the miss</a></td>
+<td>Are later shots in a possession better than the first?</td>
+<td>The rim share rises sharply, but the scoring difference is only +0.9 points per 100 attempts; its interval includes zero.</td>
+</tr>
+<tr>
+<td><a href="reports/02_three_point_defense.html">Three-point defense</a></td>
+<td>Should an early opponent percentage carry into the next scouting report?</td>
+<td>A shooter-and-location baseline beats the raw percentage on later attempts. The selected team-residual correction is effectively zero.</td>
+</tr>
+<tr>
+<td><a href="reports/03_when_to_update_a_shooter.html">Updating a shooter</a></td>
+<td>How far should a hot start move a shooting forecast?</td>
+<td>A Bayesian update beats the early percentage; its improvement over previous history is much smaller.</td>
+</tr>
+</tbody>
+</table></div>
+<p>The first study covers October 2024-January 2025 because later possession linkage is incomplete. The forecasting studies evaluate 2025-26 after development on earlier seasons. Every article states its denominator, time window, and practical limits.</p>
+<figure><img loading="lazy" alt="First and later shot profiles" src="figures/second_shot_mix.png"></figure>
+<h2>Reproduce</h2>
+<p>Use Python 3.12. From this directory:</p>
+<pre><code class="language-bash">python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python -m src.run_all --fetch
+python -m unittest discover -s tests -v
+</code></pre>
+<p>On Windows, activate with <code>.venv\Scripts\activate</code>. Downloads require internet access; analysis runs locally after the data is cached. Raw inputs are about 260 MB after extraction. Download URLs are pinned to a repository commit, and SHA-256 checks reject changed archives. The archive files and raw CSVs are excluded from Git.</p>
+<p>The three notebooks can be opened after setup. They rerun their study, display the actual results, and expose calculations useful for review. Committed notebooks include executed outputs. To rerun all notebooks with the current environment:</p>
+<pre><code class="language-bash">python -m src.notebooks
+</code></pre>
+<h2>Contents</h2>
+<ul>
+<li><code>reports/</code>: three articles in Markdown and self-contained HTML.</li>
+<li><code>notebooks/</code>: executed research notebooks.</li>
+<li><code>src/</code>: data preparation, statistical models, chart generation, and publishing utilities.</li>
+<li><code>sql/</code>: indexed team summaries and a player-history window that excludes the current outcome.</li>
+<li><code>results/</code>: full tables, tuning grids, uncertainty estimates, and monitoring output.</li>
+<li><code>models/</code>: readable fitted parameters and model scope.</li>
+<li><code>figures/</code>: nine figures in PNG and SVG.</li>
+<li><code>tests/</code>: scoring, linkage, leakage, posterior, SQL, and output checks.</li>
+</ul>
+<p>A manually triggered GitHub workflow downloads the pinned inputs, reruns the research and runs the checks.</p>
+<h2>Read the results correctly</h2>
+<p>The second-shot comparison is descriptive. It does not estimate the net value of sending another rebounder, and it excludes free-throw points. The defense model is conditional on observed shot context and cannot identify pure defensive skill or shooting luck. The shooter study is a historical backtest with a fixed cutoff, not a record of forecasts published at the time.</p>
+<p>The forecast models are validated research implementations. They have not been operated inside a basketball organization. Monitoring examples and saved parameters demonstrate how the work can be inspected and maintained without claiming proprietary data or production deployment.</p>
+<p>See <a href="https://github.com/jmsmarrelli/basketball-research/blob/main/METHODS.md">methods and data notes</a> for definitions, checks, and source limitations.</p>
+<h2>Data credit</h2>
+<p>Input collection: <a href="https://github.com/shufinskiy/nba_data">shufinskiy/nba_data</a>, originating from NBA shot charts and pbpstats possession processing. Pinned revision: <code>e829d4678be1e075f99e5d41a1c5f97089be446b</code>. The upstream repository is marked Apache-2.0; underlying NBA material retains its applicable rights. No raw video is redistributed. New analysis code is MIT licensed; that license does not grant rights to third-party data or video.</p>
+</div></main>
+<footer class="foot"><div class="wrap"><span>basketball-research</span><span>figures and tables regenerated by the pipeline in this repository</span></div></footer>
+</body>
+</html>

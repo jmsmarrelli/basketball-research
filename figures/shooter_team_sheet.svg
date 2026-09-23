@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="662.3225pt" height="393.719766pt" viewBox="0 0 662.3225 393.719766" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:description>Team at the January cutoff. Intervals describe latent probability, not a prediction interval for later FG%.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M -0 393.719766 
+L 662.3225 393.719766 
+L 662.3225 0 
+L -0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 151.1225 308.757656 
+L 655.1225 308.757656 
+L 655.1225 36.597656 
+L 151.1225 36.597656 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="mc9a97e8d49" d="M 0 3.354102 
+C 0.889518 3.354102 1.742724 3.000693 2.371708 2.371708 
+C 3.000693 1.742724 3.354102 0.889518 3.354102 0 
+C 3.354102 -0.889518 3.000693 -1.742724 2.371708 -2.371708 
+C 1.742724 -3.000693 0.889518 -3.354102 0 -3.354102 
+C -0.889518 -3.354102 -1.742724 -3.000693 -2.371708 -2.371708 
+C -3.000693 -1.742724 -3.354102 -0.889518 -3.354102 0 
+C -3.354102 0.889518 -3.000693 1.742724 -2.371708 2.371708 
+C -1.742724 3.000693 -0.889518 3.354102 0 3.354102 
+z
+" style="stroke: #176b87"/>
+    </defs>
+    <g clip-path="url(#p82d0c75a5f)">
+     <use xlink:href="#mc9a97e8d49" x="284.551357" y="296.386747" style="fill: #176b87; stroke: #176b87"/>
+     <use xlink:href="#mc9a97e8d49" x="298.658031" y="273.894185" style="fill: #176b87; stroke: #176b87"/>
+     <use xlink:href="#mc9a97e8d49" x="322.284666" y="251.401623" style="fill: #176b87; stroke: #176b87"/>
+     <use xlink:href="#mc9a97e8d49" x="384.715524" y="228.909061" style="fill: #176b87; stroke: #176b87"/>
+     <use xlink:href="#mc9a97e8d49" x="391.467711" y="206.416499" style="fill: #176b87; stroke: #176b87"/>
+     <use xlink:href="#mc9a97e8d49" x="402.497548" y="183.923937" style="fill: #176b87; stroke: #176b87"/>
+     <use xlink:href="#mc9a97e8d49" x="408.390338" y="161.431375" style="fill: #176b87; stroke: #176b87"/>
+     <use xlink:href="#mc9a97e8d49" x="423.278111" y="138.938813" style="fill: #176b87; stroke: #176b87"/>
+     <use xlink:href="#mc9a97e8d49" x="498.262211" y="116.446251" style="fill: #176b87; stroke: #176b87"/>
+     <use xlink:href="#mc9a97e8d49" x="510.476641" y="93.953689" style="fill: #176b87; stroke: #176b87"/>
+     <use xlink:href="#mc9a97e8d49" x="512.38707" y="71.461127" style="fill: #176b87; stroke: #176b87"/>
+     <use xlink:href="#mc9a97e8d49" x="514.833476" y="48.968565" style="fill: #176b87; stroke: #176b87"/>
+    </g>
+   </g>
+   <g id="PathCollection_2">
+    <defs>
+     <path id="mde1979460a" d="M -3.354102 3.354102 
+L 3.354102 -3.354102 
+M -3.354102 -3.354102 
+L 3.354102 3.354102 
+" style="stroke: #b64a24; stroke-width: 1.5"/>
+    </defs>
+    <g clip-path="url(#p82d0c75a5f)">
+     <use xlink:href="#mde1979460a" x="341.814309" y="296.386747" style="fill: #b64a24; stroke: #b64a24; stroke-width: 1.5"/>
+     <use xlink:href="#mde1979460a" x="174.031591" y="273.894185" style="fill: #b64a24; stroke: #b64a24; stroke-width: 1.5"/>
+     <use xlink:href="#mde1979460a" x="538.811868" y="251.401623" style="fill: #b64a24; stroke: #b64a24; stroke-width: 1.5"/>
+     <use xlink:href="#mde1979460a" x="249.008911" y="228.909061" style="fill: #b64a24; stroke: #b64a24; stroke-width: 1.5"/>
+     <use xlink:href="#mde1979460a" x="441.041091" y="206.416499" style="fill: #b64a24; stroke: #b64a24; stroke-width: 1.5"/>
+     <use xlink:href="#mde1979460a" x="474.956299" y="183.923937" style="fill: #b64a24; stroke: #b64a24; stroke-width: 1.5"/>
+     <use xlink:href="#mde1979460a" x="481.870148" y="161.431375" style="fill: #b64a24; stroke: #b64a24; stroke-width: 1.5"/>
+     <use xlink:href="#mde1979460a" x="331.607463" y="138.938813" style="fill: #b64a24; stroke: #b64a24; stroke-width: 1.5"/>
+     <use xlink:href="#mde1979460a" x="249.865421" y="116.446251" style="fill: #b64a24; stroke: #b64a24; stroke-width: 1.5"/>
+     <use xlink:href="#mde1979460a" x="496.448027" y="93.953689" style="fill: #b64a24; stroke: #b64a24; stroke-width: 1.5"/>
+     <use xlink:href="#mde1979460a" x="447.243381" y="71.461127" style="fill: #b64a24; stroke: #b64a24; stroke-width: 1.5"/>
+     <use xlink:href="#mde1979460a" x="463.413177" y="48.968565" style="fill: #b64a24; stroke: #b64a24; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mbabf15988b" d="M 0 0 
+L 0 3.5 
+" style="stroke: #66727c; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mbabf15988b" x="215.351486" y="308.757656" style="fill: #66727c; stroke: #66727c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #66727c" x="215.351486" y="324.115078" transform="rotate(-0 215.351486 324.115078)">32.0%</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mbabf15988b" x="292.132486" y="308.757656" style="fill: #66727c; stroke: #66727c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #66727c" x="292.132486" y="324.115078" transform="rotate(-0 292.132486 324.115078)">34.0%</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#mbabf15988b" x="368.913486" y="308.757656" style="fill: #66727c; stroke: #66727c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #66727c" x="368.913486" y="324.115078" transform="rotate(-0 368.913486 324.115078)">36.0%</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mbabf15988b" x="445.694485" y="308.757656" style="fill: #66727c; stroke: #66727c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #66727c" x="445.694485" y="324.115078" transform="rotate(-0 445.694485 324.115078)">38.0%</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#mbabf15988b" x="522.475485" y="308.757656" style="fill: #66727c; stroke: #66727c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #66727c" x="522.475485" y="324.115078" transform="rotate(-0 522.475485 324.115078)">40.0%</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mbabf15988b" x="599.256484" y="308.757656" style="fill: #66727c; stroke: #66727c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #66727c" x="599.256484" y="324.115078" transform="rotate(-0 599.256484 324.115078)">42.0%</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172d45" x="403.1225" y="339.115937" transform="rotate(-0 403.1225 339.115937)">Three-point make rate</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_7">
+      <defs>
+       <path id="m0d7a99eeef" d="M 0 0 
+L -3.5 0 
+" style="stroke: #172d45; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m0d7a99eeef" x="151.1225" y="296.386747" style="fill: #172d45; stroke: #172d45; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #172d45" x="144.1225" y="300.565888" transform="rotate(-0 144.1225 300.565888)">Devin Booker (PHX)</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m0d7a99eeef" x="151.1225" y="273.894185" style="fill: #172d45; stroke: #172d45; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #172d45" x="144.1225" y="278.072896" transform="rotate(-0 144.1225 278.072896)">De'Aaron Fox (SAS)</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m0d7a99eeef" x="151.1225" y="251.401623" style="fill: #172d45; stroke: #172d45; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #172d45" x="144.1225" y="255.580764" transform="rotate(-0 144.1225 255.580764)">Saddiq Bey (NOP)</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m0d7a99eeef" x="151.1225" y="228.909061" style="fill: #172d45; stroke: #172d45; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #172d45" x="144.1225" y="233.088202" transform="rotate(-0 144.1225 233.088202)">Jose Alvarado (NOP)</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m0d7a99eeef" x="151.1225" y="206.416499" style="fill: #172d45; stroke: #172d45; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #172d45" x="144.1225" y="210.59564" transform="rotate(-0 144.1225 210.59564)">Trey Murphy III (NOP)</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m0d7a99eeef" x="151.1225" y="183.923937" style="fill: #172d45; stroke: #172d45; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #172d45" x="144.1225" y="188.103078" transform="rotate(-0 144.1225 188.103078)">Julian Champagnie (SAS)</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m0d7a99eeef" x="151.1225" y="161.431375" style="fill: #172d45; stroke: #172d45; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #172d45" x="144.1225" y="165.610516" transform="rotate(-0 144.1225 165.610516)">Devin Vassell (SAS)</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m0d7a99eeef" x="151.1225" y="138.938813" style="fill: #172d45; stroke: #172d45; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #172d45" x="144.1225" y="143.117954" transform="rotate(-0 144.1225 143.117954)">Dillon Brooks (PHX)</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m0d7a99eeef" x="151.1225" y="116.446251" style="fill: #172d45; stroke: #172d45; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #172d45" x="144.1225" y="120.625392" transform="rotate(-0 144.1225 120.625392)">Grayson Allen (PHX)</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m0d7a99eeef" x="151.1225" y="93.953689" style="fill: #172d45; stroke: #172d45; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #172d45" x="144.1225" y="98.13283" transform="rotate(-0 144.1225 98.13283)">Royce O'Neale (PHX)</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m0d7a99eeef" x="151.1225" y="71.461127" style="fill: #172d45; stroke: #172d45; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #172d45" x="144.1225" y="75.640268" transform="rotate(-0 144.1225 75.640268)">Collin Gillespie (PHX)</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m0d7a99eeef" x="151.1225" y="48.968565" style="fill: #172d45; stroke: #172d45; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #172d45" x="144.1225" y="53.147706" transform="rotate(-0 144.1225 53.147706)">Harrison Barnes (SAS)</text>
+     </g>
+    </g>
+   </g>
+   <g id="LineCollection_1">
+    <path d="M 193.835529 296.386747 
+L 376.592347 296.386747 
+" clip-path="url(#p82d0c75a5f)" style="fill: none; stroke: #176b87; stroke-width: 2"/>
+    <path d="M 198.404998 273.894185 
+L 400.486715 273.894185 
+" clip-path="url(#p82d0c75a5f)" style="fill: none; stroke: #176b87; stroke-width: 2"/>
+    <path d="M 192.845941 251.401623 
+L 454.238602 251.401623 
+" clip-path="url(#p82d0c75a5f)" style="fill: none; stroke: #176b87; stroke-width: 2"/>
+    <path d="M 278.198765 228.909061 
+L 492.713139 228.909061 
+" clip-path="url(#p82d0c75a5f)" style="fill: none; stroke: #176b87; stroke-width: 2"/>
+    <path d="M 297.060124 206.416499 
+L 487.018697 206.416499 
+" clip-path="url(#p82d0c75a5f)" style="fill: none; stroke: #176b87; stroke-width: 2"/>
+    <path d="M 308.421826 183.923937 
+L 497.680286 183.923937 
+" clip-path="url(#p82d0c75a5f)" style="fill: none; stroke: #176b87; stroke-width: 2"/>
+    <path d="M 312.652631 161.431375 
+L 505.259273 161.431375 
+" clip-path="url(#p82d0c75a5f)" style="fill: none; stroke: #176b87; stroke-width: 2"/>
+    <path d="M 327.838022 138.938813 
+L 519.803684 138.938813 
+" clip-path="url(#p82d0c75a5f)" style="fill: none; stroke: #176b87; stroke-width: 2"/>
+    <path d="M 393.082191 116.446251 
+L 604.533991 116.446251 
+" clip-path="url(#p82d0c75a5f)" style="fill: none; stroke: #176b87; stroke-width: 2"/>
+    <path d="M 413.877534 93.953689 
+L 607.96531 93.953689 
+" clip-path="url(#p82d0c75a5f)" style="fill: none; stroke: #176b87; stroke-width: 2"/>
+    <path d="M 393.895837 71.461127 
+L 632.213409 71.461127 
+" clip-path="url(#p82d0c75a5f)" style="fill: none; stroke: #176b87; stroke-width: 2"/>
+    <path d="M 411.581409 48.968565 
+L 619.090419 48.968565 
+" clip-path="url(#p82d0c75a5f)" style="fill: none; stroke: #176b87; stroke-width: 2"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 151.1225 308.757656 
+L 655.1225 308.757656 
+" style="fill: none; stroke: #dde3e8; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172d45" x="151.1225" y="18.597656" transform="rotate(-0 151.1225 18.597656)">A January scouting sheet, then the later results</text>
+   </g>
+   <g id="legend_1">
+    <g id="PathCollection_3">
+     <g>
+      <use xlink:href="#mc9a97e8d49" x="170.1225" y="370.935112" style="fill: #176b87; stroke: #176b87"/>
+     </g>
+    </g>
+    <g id="text_21">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172d45" x="188.1225" y="373.560112" transform="rotate(-0 188.1225 373.560112)">January forecast</text>
+    </g>
+    <g id="PathCollection_4">
+     <g>
+      <use xlink:href="#mde1979460a" x="299.650625" y="370.935112" style="fill: #b64a24; stroke: #b64a24; stroke-width: 1.5"/>
+     </g>
+    </g>
+    <g id="text_22">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172d45" x="317.650625" y="373.560112" transform="rotate(-0 317.650625 373.560112)">Later observed rate</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_23">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #66727c" x="14.3225" y="384.357656" transform="rotate(-0 14.3225 384.357656)">Team at the January cutoff. Intervals describe latent probability, not a prediction interval for later FG%.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p82d0c75a5f">
+   <rect x="151.1225" y="36.597656" width="504" height="272.16"/>
+  </clipPath>
+ </defs>
+</svg>
