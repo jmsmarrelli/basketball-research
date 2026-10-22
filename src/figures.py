@@ -36,6 +36,7 @@ plt.rcParams.update(
         "figure.facecolor": "white",
         "axes.facecolor": "white",
         "svg.fonttype": "none",
+        "svg.hashsalt": "basketball-portfolio",
         "savefig.facecolor": "white",
     }
 )
@@ -54,6 +55,8 @@ def save(fig, name, caption):
         bbox_inches="tight",
         metadata={"Creator": None, "Date": None, "Description": caption},
     )
+    svg = ROOT / f"figures/{name}.svg"
+    svg.write_text("\n".join(line.rstrip() for line in svg.read_text().splitlines()) + "\n")
     plt.close(fig)
 
 
@@ -160,7 +163,7 @@ def run():
     ax.set_ylim(0, 1.07)
     ax.yaxis.set_major_formatter(PercentFormatter(1))
     ax.set_title(
-        "Video linkage is not complete for the whole season", loc="left", pad=18
+        "Possession linkage is not complete for the whole season", loc="left", pad=18
     )
     for i, r in c.iterrows():
         ax.text(i, r.coverage + 0.025, f"{r.coverage:.1%}", ha="center", fontsize=10)
@@ -352,6 +355,8 @@ def run():
         "shooter_team_sheet",
         "Team at the January cutoff. Intervals describe latent probability, not a prediction interval for later FG%.",
     )
+    from tools.feature_charts import main as feature_charts
+    feature_charts()
     return 9
 
 
