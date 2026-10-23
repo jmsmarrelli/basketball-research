@@ -1,5 +1,7 @@
 # Basketball decisions, checked against later games
 
+[Read the basketball decision brief](reports/00_decision_brief.md) · [Visual design and rebuild](tools/VISUALS.md)
+
 Three research studies on shot creation, opponent scouting, and shooting forecasts. The analyses use 657,388 NBA shot-chart events across the 2023-24, 2024-25, and 2025-26 regular seasons, plus 2024-25 possession data. Research completed September 2026.
 
 | Study | Basketball question | Main result |
@@ -56,3 +58,7 @@ See [methods and data notes](METHODS.md) for definitions, checks, and source lim
 ## Data credit
 
 Input collection: [shufinskiy/nba_data](https://github.com/shufinskiy/nba_data), originating from NBA shot charts and pbpstats possession processing. Pinned revision: `e829d4678be1e075f99e5d41a1c5f97089be446b`. The upstream repository is marked Apache-2.0; underlying NBA material retains its applicable rights. No raw video is redistributed. New analysis code is MIT licensed; that license does not grant rights to third-party data or video.
+
+## Current review
+
+See [current validation](VALIDATION_CURRENT.md) for executed checks and unresolved rebuild requirements, and [provenance](PROVENANCE.md) for AI assistance. [Portfolio navigation](https://github.com/jmsmarrelli/basketball-analytics).

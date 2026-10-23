@@ -1,6 +1,7 @@
 import json, sqlite3, unittest
 import numpy as np
 import pandas as pd
+import pytest
 from scipy.special import expit
 from src.common import ROOT, shots, TEAM, logloss
 from src.shooter_updates import posterior
@@ -8,6 +9,7 @@ from src.three_point_defense import prepare, FEATURES
 
 
 class ResearchChecks(unittest.TestCase):
+    @pytest.mark.requires_raw
     def test_binary_scoring(self):
         for season in [2023, 2024, 2025]:
             d = shots(season)
@@ -17,6 +19,7 @@ class ResearchChecks(unittest.TestCase):
             self.assertTrue(d.date.max().year == season + 1)
             self.assertFalse(d.team.eq(d.opponent).any())
 
+    @pytest.mark.requires_raw
     def test_sql_totals_and_prior_frame(self):
         with sqlite3.connect(ROOT / "data/research.sqlite") as c:
             count = c.execute("SELECT COUNT(*) FROM shots").fetchone()[0]
@@ -40,8 +43,12 @@ class ResearchChecks(unittest.TestCase):
         self.assertGreater(p.loc[1, "posterior_mean"], p.loc[1, "prior_forecast"])
 
     def test_future_results_not_used_in_context_features(self):
-        previous = shots(2023)
-        current = shots(2024).head(1000).copy()
+        # Deliberately small test fixture; no synthetic rows enter research outputs.
+        previous = pd.DataFrame({'PLAYER_ID': [1, 1, 2, 2], 'made': [1, 0, 0, 1],
+                                 'three': [True]*4, 'heave': [False]*4})
+        current = pd.DataFrame({'PLAYER_ID': [1, 2, 3], 'made': [1, 0, 1],
+                                'three': [True]*3, 'heave': [False]*3,
+                                'corner': [True, False, False], 'SHOT_DISTANCE': [22, 26, 29]})
         a, _ = prepare(current, previous)
         current["made"] = 1 - current.made
         b, _ = prepare(current, previous)
