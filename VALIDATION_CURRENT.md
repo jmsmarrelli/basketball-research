@@ -1,3 +1,21 @@
+# Current validation — October 23, 2026
+
+## Raw-source reproduction — October 23, 2026
+
+The four manually downloaded source archives match every SHA-256 checksum and byte count in `data/source_manifest.json` at upstream commit `e829d4678be1e075f99e5d41a1c5f97089be446b`. They were restored locally without changing network permissions. Raw inputs and the derived SQLite database remain excluded from Git.
+
+`python -m src.data fetch` verified and extracted all four local archives. `python -m src.data sql` rebuilt 657,388 shots and reconciled SQL totals. The rebuilt SQL results are byte-identical to the reviewed file. All eight research tests pass, including the two previously blocked source-dependent tests.
+
+A separate reproduction copy ran `python -m src.run_all` successfully, refitting the three analyses and regenerating nine figures. All 17 result files and both model files are byte-identical to the reviewed originals. The full eight-test suite also passes against these freshly reproduced outputs. The reviewed checkout's results and charts were preserved.
+
+This closes the missing-input and missing-SQL validation blockers recorded below. The run used the existing Python 3.14.7 environment; a fresh installation of the declared Python 3.12 environment, notebook re-execution, and browser desktop/mobile certification are still not claimed. Across the previously tested collection, the two formerly failing tests now pass, bringing the cumulative count to 139; other repositories were not rerun for this data-only restoration.
+
+The draft pull request remains unmerged. No default branch, repository visibility, network setting, or deployment configuration was changed.
+
+## Historical validation record
+
+The October 22 entries below document the state before the source archives were restored; their missing-data failures are superseded by the successful October 23 reproduction above.
+
 # Current validation — October 22, 2026
 
 ## Connected GitHub review — October 22, 2026
